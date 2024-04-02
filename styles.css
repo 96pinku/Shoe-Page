@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right,#B52D2B,#4B528E,#D3D3D3);
+}
+.shoe{
+    width: 90%;
+    height: 550px;
+    margin: 8%;
+    padding: 10px;
+    color: white;
+    box-shadow: 0px 0px 8px black;
+    background-image: linear-gradient(to right,#8D2485,#E33F5A,#EE5B39);
+}
+.shoe>h1{
+    padding-left: 2%;
+}
+.shoe>img{
+    position: absolute;
+    top: -1em;
+    right: -2em;
+    transform: scale(0.8);
+}
+.shoe>img:hover{
+    transform: scale(1.1);
+    transform-origin: right top;
+    top: 2em;
+    right: 2em;
+}
+.shoe>p{
+    width: 40%;
+    padding-top: 2em;
+    padding-left: 2%;
+    font-size: large;
+}
